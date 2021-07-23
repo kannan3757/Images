@@ -1,0 +1,71 @@
+<html>
+
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="pro.css">
+
+</head>
+<body>
+    <img id="menubar" src="C:\Users\kanna\Downloads\menuwww.png" alt="">
+<img  id="carttt" src="C:\Users\kanna\Downloads\shopping-cartmmm.png" alt="">
+<h4><header>Lorem<br><span>Ipsum</span></header></h4>
+
+<nav>
+<ul id="list" style="list-style-type:none;">
+  <li><del style="text-decoration-color:red">About</del></li>
+  <li>Services</li>
+  <li>Cuisine</li>
+  <li>Gallery</li>
+  <li>Contact</li>
+  <li>Book</li>
+</ul>
+  <button>Cart</button>
+</nav>
+<h5><section>What are you<br> having for Lunch?
+</section></h5>
+<div id="sidebar">
+  <pre>
+    Lorem ipsum dolor sit amet,
+    consectetur adipiscing elit,
+    ses do eiusmod tempor
+    incididunt ut labore et.
+  </pre>
+  <hr>
+</div>
+
+<article>
+  <figure id="container">
+  <fig class="wrap1" id="box">
+    <img id="foods" src="https://user-images.githubusercontent.com/60217413/126463656-c6cee118-7a24-4483-a0cf-06ff97709121.jpg" alt="Mexican Taco">
+    <figcaption>Mexican Taco</figcaption>
+    
+    </fig>
+    <fig class="wrap1" id="box">
+    <img id="foods" src="https://user-images.githubusercontent.com/60217413/126468382-a68f0c27-14a3-4579-8435-cf0a49a11612.jpg" alt="Mexican Taco">
+      <figcaption>Farmhouse Pizza</figcaption>
+  </fig>
+
+        <fig class="wrap4" id="box">
+    <img id="foods"src="https://user-images.githubusercontent.com/60217413/126470091-ec0e17ec-632d-45d0-a097-f413400b8421.jpg" alt="Mexican Taco">
+      <figcaption>Chicken Burger</figcaption>
+  </fig>
+    <fig id="box">
+    <img class="wrap4" id="foods" src="https://user-images.githubusercontent.com/60217413/126468460-fe685d7e-e845-40ab-8346-52aa7841eb1b.jpg" alt="Mexican Taco">
+      <figcaption>Loaded Nachos</figcaption>
+  </fig>
+
+
+    <fig id="box">
+    <img id="foods" src="https://user-images.githubusercontent.com/60217413/126468503-392cfdc7-daef-4845-8f14-d11c83ad1c86.jpg" alt="Mexican Taco">
+      <figcaption>Hakka Noodles</figcaption>
+  </fig>
+  </figure>
+</article>
+
+
+
+</body>
+
+
+</html>
