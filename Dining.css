@@ -1,0 +1,116 @@
+*{
+    box-sizing:border-box;
+  }
+  body{
+    background-color:lightgray;
+  }
+  
+  section{
+    font-size:40px;
+    float:left;
+  }
+  nav{
+    float:left;
+    width:20%;
+    padding:20px;
+  }
+  nav ul li{
+    padding:20px;
+    color:gray;
+  }
+  header{
+    margin-left:60px;
+    font-size:20px;
+  }
+  hr{
+    background-color:red;
+    width:50px;
+    padding:0.5px;
+    margin-right:150px;
+  }
+  #sidebar{
+    float:right;
+    margin-right:200px;
+    color:gray;
+  }
+  
+  #container{
+    display:flex;
+    position: absolute;
+    margin-top: 150px;
+    width: 80%;
+    height: 50%;
+    margin-left: 200px;
+    
+  }
+  #foods{
+    width:80%;
+    height:70%;
+    padding:20px;
+    margin-left:10px;
+    border-radius:50%;
+  }
+  figcaption{
+    margin-left:30px;
+  }
+  #box{
+    background-color:white;
+    margin:10px;
+    border-radius:10px;
+    box-shadow:4px 4px 20px 2px gray;
+  }
+  button{
+    margin-left:90px;
+    margin-top:80px;
+    width:50%;
+    padding:10px;
+    background-color:red;
+    border:1px solid red;
+    border-radius:30px;
+    color:white;
+  }
+  #menubar{
+      float: left;
+      display: none;
+  }
+  #carttt{
+      float: right;
+      display: none;
+  }
+  @media only screen and (max-width:500px){
+        #menubar,#carttt{
+            display: block;
+        }
+        #list,button{
+            display: none;
+        }
+        header{
+            text-align: center;
+        }
+        span{
+            display: none;
+        }
+        h5{
+            width: 100%;
+            float: left;
+        }
+        #container{
+            display: flex;
+            flex-wrap: wrap;
+            position: absolute;
+            align-content: initial;
+            
+            margin-top: 200px;
+        }
+        
+        
+            
+        
+        #sidebar{
+            margin-top: 250%;
+        }
+        
+        
+    }
+  
+  
